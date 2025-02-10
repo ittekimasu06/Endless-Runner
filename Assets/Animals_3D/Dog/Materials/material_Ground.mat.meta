@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4dcd2fe3a796a4574a58dad0e022f165
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207297
+  packageName: Animals 3D Dog
+  packageVersion: 1.10
+  assetPath: Assets/Animals_3D/Dog/Materials/material_Ground.mat
+  uploadId: 531653

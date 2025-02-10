@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ffc0a1d304990429caaa5243f83f6def
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207297
+  packageName: Animals 3D Dog
+  packageVersion: 1.10
+  assetPath: Assets/Animals_3D/Dog/AnimationClips/howling_sit.anim
+  uploadId: 531653

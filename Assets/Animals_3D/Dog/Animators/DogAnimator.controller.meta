@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0cab7c269bdce488a9d2e0149a3934ae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207297
+  packageName: Animals 3D Dog
+  packageVersion: 1.10
+  assetPath: Assets/Animals_3D/Dog/Animators/DogAnimator.controller
+  uploadId: 531653

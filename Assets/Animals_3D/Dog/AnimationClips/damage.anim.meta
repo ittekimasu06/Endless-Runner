@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2dd2f0cbab6d64965beca2b26d82454c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 207297
+  packageName: Animals 3D Dog
+  packageVersion: 1.10
+  assetPath: Assets/Animals_3D/Dog/AnimationClips/damage.anim
+  uploadId: 531653
