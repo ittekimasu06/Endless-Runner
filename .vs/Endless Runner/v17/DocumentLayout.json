@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "D:\\Endless Runner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|d:\\endless runner\\assets\\scripts\\collectablerotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablerotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|d:\\endless runner\\assets\\scripts\\segmentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|d:\\endless runner\\assets\\scripts\\segmentmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\segmentmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\segmentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\segmentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\segmentmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\segmentmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\bonecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bonecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\collectablerotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectablerotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\cubemoverment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubemoverment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +42,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SectionTrigger.cs",
+              "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\SectionTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SectionTrigger.cs",
+              "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\SectionTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SectionTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T03:52:52.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SegmentMove.cs",
+              "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\SegmentMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SegmentMove.cs",
+              "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\SegmentMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SegmentMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T03:51:28.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SegmentMovement.cs",
+              "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\SegmentMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SegmentMovement.cs",
+              "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\SegmentMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SegmentMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T04:52:52.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cubemoverment.cs",
+              "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\cubemoverment.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\cubemoverment.cs",
+              "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\cubemoverment.cs",
+              "RelativeToolTip": "Assets\\Scripts\\cubemoverment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T04:29:44.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoneCollect.cs",
+              "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\BoneCollect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoneCollect.cs",
+              "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\BoneCollect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoneCollect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T15:20:50.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CollectableRotate.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\CollectableRotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollectableRotate.cs",
@@ -34,31 +120,29 @@
               "RelativeToolTip": "Assets\\Scripts\\CollectableRotate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T05:39:13.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T05:39:13.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SegmentGenerator.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\SegmentGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SegmentGenerator.cs",
               "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\SegmentGenerator.cs",
               "RelativeToolTip": "Assets\\Scripts\\SegmentGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T17:02:45.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T17:02:45.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T15:24:28.38Z"
             }

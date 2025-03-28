@@ -402,9 +402,14 @@
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Animals_3D/Dog/Scripts/DogControlScript.cs"
+"Assets/Scripts/BoneCollect.cs"
 "Assets/Scripts/CollectableRotate.cs"
+"Assets/Scripts/cubemoverment.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/SectionTrigger.cs"
 "Assets/Scripts/SegmentGenerator.cs"
+"Assets/Scripts/SegmentMove.cs"
+"Assets/Scripts/SegmentMovement.cs"
 -langversion:9.0
 /deterministic
 /optimize-

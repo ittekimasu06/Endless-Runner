@@ -20,7 +20,7 @@ public class SegmentGenerator : MonoBehaviour
             StartCoroutine(SegmentGen());
         }
     }
-
+    
 
     IEnumerator SegmentGen()
     {

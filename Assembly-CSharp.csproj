@@ -62,8 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SegmentGenerator.cs" />
+    <Compile Include="Assets\Scripts\cubemoverment.cs" />
+    <Compile Include="Assets\Scripts\SectionTrigger.cs" />
     <Compile Include="Assets\Animals_3D\Dog\Scripts\DogControlScript.cs" />
+    <Compile Include="Assets\Scripts\BoneCollect.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\SegmentMove.cs" />
+    <Compile Include="Assets\Scripts\SegmentMovement.cs" />
     <Compile Include="Assets\Scripts\CollectableRotate.cs" />
   </ItemGroup>
   <ItemGroup>

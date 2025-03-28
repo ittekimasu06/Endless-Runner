@@ -75,7 +75,7 @@ public class DogControlScript : MonoBehaviour
             }
             else if(status_name == "Bark")
             {
-                BARK(); 
+                BARK();
             }
             else if(status_name == "HeadShake")
             {
