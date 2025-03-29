@@ -2,11 +2,23 @@ using UnityEngine;
 
 public class BoneCollect : MonoBehaviour
 {
-    [SerializeField] AudioSource boneFX;
+    [SerializeField] private GameObject boneFX;
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        boneFX.Play();
-        this.gameObject.SetActive(false);
+        if (other.CompareTag("Player"))
+        { 
+            Debug.Log("Bone collected!");
+
+            GameObject sfx = Instantiate(boneFX, transform.position, Quaternion.identity);
+            AudioSource audio = sfx.GetComponent<AudioSource>();
+            audio.Play();
+
+            MasterLevelInfo.boneCount++;
+
+            Destroy(sfx, audio.clip.length);
+            Destroy(gameObject);
+        
+        }
     }
 }

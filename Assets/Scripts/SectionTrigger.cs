@@ -11,7 +11,7 @@ public class SectionTrigger : MonoBehaviour
             // Pick a random segment from the array
             int randomIndex = Random.Range(0, roadSegments.Length);
 
-            Vector3 spawnPosition = new Vector3(0, 0, transform.position.z + 80);
+            Vector3 spawnPosition = new Vector3(0, 0, transform.position.z + 72);
             Instantiate(roadSegments[randomIndex], spawnPosition, Quaternion.identity);
         }
     }
