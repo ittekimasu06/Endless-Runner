@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class cubemoverment : MonoBehaviour
+public class CubeMovement : MonoBehaviour
 {
     public float moveDistance = 4.5f; // Khoang cach di chuyen moi lan nhan phim
     public float jumpHeight = 3.4f; // Chieu cao cua cu nhay

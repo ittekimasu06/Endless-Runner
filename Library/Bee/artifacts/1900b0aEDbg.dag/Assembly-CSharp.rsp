@@ -406,6 +406,7 @@
 "Assets/Bublisher/3D Stylized Animated Dogs Kit/Scripts/DemoController.cs"
 "Assets/Scripts/BoneCollect.cs"
 "Assets/Scripts/CollectableRotate.cs"
+"Assets/Scripts/CollisionDetect.cs"
 "Assets/Scripts/CubeMovement.cs"
 "Assets/Scripts/MasterLevelInfo.cs"
 "Assets/Scripts/PlayerMovement.cs"
