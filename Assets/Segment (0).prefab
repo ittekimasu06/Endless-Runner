@@ -752,6 +752,7 @@ GameObject:
   - component: {fileID: 1400479634100784812}
   - component: {fileID: 5361024589122223559}
   - component: {fileID: 3896254216000899127}
+  - component: {fileID: 4872506108607872249}
   m_Layer: 0
   m_Name: Truck (3)
   m_TagString: Untagged
@@ -843,7 +844,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -861,12 +862,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &4872506108607872249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681371791582622683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &1691168524409891455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1052,6 +1062,7 @@ GameObject:
   - component: {fileID: 6616424302729826112}
   - component: {fileID: 7271017281297514163}
   - component: {fileID: 3074877213449962912}
+  - component: {fileID: 6815653637790521367}
   m_Layer: 0
   m_Name: Bus02 (4)
   m_TagString: Untagged
@@ -1143,7 +1154,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1161,12 +1172,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &6815653637790521367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997841369715033877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &2052890420645659272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,6 +1458,7 @@ GameObject:
   - component: {fileID: 6144293548288915655}
   - component: {fileID: 5210747162016812160}
   - component: {fileID: 6534260768216282271}
+  - component: {fileID: 5943228105105859854}
   m_Layer: 0
   m_Name: Car01 (17)
   m_TagString: Untagged
@@ -1529,7 +1550,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1547,12 +1568,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &5943228105105859854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3874552767960335781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &3977373825893417807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,12 +1854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 0}
 --- !u!1 &4836346829429159737
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,6 +1954,7 @@ GameObject:
   - component: {fileID: 3333494464461460280}
   - component: {fileID: 1161315616811022756}
   - component: {fileID: 6574137563058299402}
+  - component: {fileID: 2826542614556237197}
   m_Layer: 0
   m_Name: Car01 (16)
   m_TagString: Untagged
@@ -2038,12 +2064,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &2826542614556237197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035911097435055079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &5210135468779079250
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,6 +2264,7 @@ GameObject:
   - component: {fileID: 2834776848008250346}
   - component: {fileID: 1762722130706318142}
   - component: {fileID: 5543996535007716575}
+  - component: {fileID: 1163393352455534726}
   m_Layer: 0
   m_Name: Traffic Control Bar (1)
   m_TagString: Untagged
@@ -2320,7 +2356,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2338,12 +2374,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &1163393352455534726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6054682482697580004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &6231753792231548302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,6 +2402,7 @@ GameObject:
   - component: {fileID: 3069227130022403344}
   - component: {fileID: 7224860736077021768}
   - component: {fileID: 5901995355619314118}
+  - component: {fileID: 550012831943128054}
   m_Layer: 0
   m_Name: Car01 (16)
   m_TagString: Untagged
@@ -2448,7 +2494,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2466,12 +2512,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &550012831943128054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6231753792231548302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &6342544237618655576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2485,6 +2540,7 @@ GameObject:
   - component: {fileID: 4201660966980115909}
   - component: {fileID: 8472792261156595592}
   - component: {fileID: 106952024117906800}
+  - component: {fileID: 1541970242747855347}
   m_Layer: 0
   m_Name: Bus02 (3)
   m_TagString: Untagged
@@ -2576,7 +2632,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2594,12 +2650,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &1541970242747855347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342544237618655576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1 &7194914158673703764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2903,7 @@ GameObject:
   - component: {fileID: 8325411004012061188}
   - component: {fileID: 5502813719213931415}
   - component: {fileID: 5829987007518672853}
+  - component: {fileID: 2632771583918873169}
   m_Layer: 0
   m_Name: Bus02 (5)
   m_TagString: Untagged
@@ -2929,7 +2995,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2947,12 +3013,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5913fabc8ddc0f447ba246939c77c142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Map:
-  - {fileID: 266174304683625555}
-  - {fileID: 7258449462590381131, guid: a10d91f0fa63a0c45a5a41035dfa5d7b, type: 3}
-  - {fileID: 3848466936475875307, guid: d246182e3b961294e85ac7c2989def59, type: 3}
-  - {fileID: 1934737386350991715, guid: b992aa2e587fc5845a5dfd8bed5b69fd, type: 3}
-  - {fileID: 8721476300840136089, guid: 0ed2ba49e04608244b48d8880c617c8d, type: 3}
+  collisionFX: {fileID: 2360032477413580325, guid: 2a98a839e00764e46a7d5008fb5bf3e6, type: 3}
+--- !u!114 &2632771583918873169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8432577997806003474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9fc072bfb3c5d44ac2adc159a81ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushBackDistance: 6
+  pushDuration: 0.4
 --- !u!1001 &14650797752031680
 PrefabInstance:
   m_ObjectHideFlags: 0

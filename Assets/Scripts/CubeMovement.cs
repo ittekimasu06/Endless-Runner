@@ -4,9 +4,9 @@ using System.Collections;
 public class CubeMovement : MonoBehaviour
 {
     public float moveDistance = 4.5f; // Khoang cach di chuyen moi lan nhan phim
-    public float jumpHeight = 3.4f; // Chieu cao cua cu nhay
+    public float jumpHeight = 3.6f; // Chieu cao cua cu nhay
     public float sideJumpHeight = 0.8f; // Chieu cao cua cu nhay sang ben
-    public float jumpSpeed = 0.6f; // Toc do cua cu nhay
+    public float jumpSpeed = 0.8f; // Toc do cua cu nhay
     public float sideJumpSpeed = 0.2f; // Toc do cua cu nhay sang ben
     public float leftLimit = -6.5f;
     public float rightLimit = 6.5f;
@@ -64,7 +64,7 @@ public class CubeMovement : MonoBehaviour
         isAtPeak = true;
 
         // Check for side movement at peak
-        if (isAtPeak && (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)))
+        if (isAtPeak && ((Input.GetKey(KeyCode.LeftArrow) || (Input.GetKey(KeyCode.A)) || (Input.GetKey(KeyCode.RightArrow) || (Input.GetKey(KeyCode.D))))))
         {
             Vector3 tentativePosition = originalPosition;
 
