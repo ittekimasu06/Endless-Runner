@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "D:\\Endless Runner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\segmentmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\collisiondetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collisiondetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\bonecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bonecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\cubemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|d:\\endless runner\\assets\\scripts\\segmentmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\segmentmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +23,8 @@
       "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\segmentgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|d:\\endless runner\\assets\\scripts\\obstaclecollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\obstaclecollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\obstaclecollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\cubemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\collisiondetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collisiondetect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\bonecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bonecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E0C5DCE-DDAC-CA2C-034F-45292D3E70AC}|Assembly-CSharp.csproj|D:\\Endless Runner\\assets\\scripts\\masterlevelinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ObstacleCollision.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\ObstacleCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObstacleCollision.cs",
@@ -70,31 +70,30 @@
               "RelativeToolTip": "Assets\\Scripts\\ObstacleCollision.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T19:05:03.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-29T19:05:03.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CubeMovement.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\CubeMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CubeMovement.cs",
               "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\CubeMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\CubeMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T14:52:16.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "CollisionDetect.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\CollisionDetect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CollisionDetect.cs",
               "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\CollisionDetect.cs",
               "RelativeToolTip": "Assets\\Scripts\\CollisionDetect.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T14:47:26.899Z",
               "EditorCaption": ""
@@ -125,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SegmentMove.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\SegmentMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SegmentMove.cs",
@@ -150,15 +149,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "BoneCollect.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\BoneCollect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BoneCollect.cs",
               "ToolTip": "D:\\Endless Runner\\Assets\\Scripts\\BoneCollect.cs",
               "RelativeToolTip": "Assets\\Scripts\\BoneCollect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T15:20:50.481Z"
+              "WhenOpened": "2025-02-11T15:20:50.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -174,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SegmentGenerator.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Assets\\Scripts\\SegmentGenerator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SegmentGenerator.cs",
@@ -182,8 +182,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SegmentGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T17:02:45.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T17:02:45.796Z"
             },
             {
               "$type": "Document",

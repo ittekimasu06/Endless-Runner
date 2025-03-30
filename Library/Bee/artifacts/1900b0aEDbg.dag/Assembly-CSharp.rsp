@@ -408,6 +408,7 @@
 "Assets/Scripts/CollectableRotate.cs"
 "Assets/Scripts/CollisionDetect.cs"
 "Assets/Scripts/CubeMovement.cs"
+"Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/MasterLevelInfo.cs"
 "Assets/Scripts/ObstacleCollision.cs"
 "Assets/Scripts/PlayerMovement.cs"
