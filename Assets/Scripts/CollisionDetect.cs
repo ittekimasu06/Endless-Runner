@@ -1,5 +1,8 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CollisionDetect : MonoBehaviour
 {
@@ -8,6 +11,10 @@ public class CollisionDetect : MonoBehaviour
     private GameObject Player;
     private GameObject Canvas;
     private GameObject fadeOut;
+    private GameObject gameOverPanel;
+    private Button restartButton;
+    private Button mainMenuButton;
+    private TMPro.TMP_Text result;
     [SerializeField] GameObject collisionFX;
 
     private void Start()
@@ -16,7 +23,9 @@ public class CollisionDetect : MonoBehaviour
         GameObject playerModel = GameObject.FindGameObjectWithTag("PlayerModel");
         Player = GameObject.FindGameObjectWithTag("Player");
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
-        fadeOut = Canvas.transform.Find("FadeOut").gameObject;
+        fadeOut = Canvas.transform.Find("FadeOut")?.gameObject;
+        gameOverPanel = Canvas.transform.Find("GameOverPanel")?.gameObject;
+        result = gameOverPanel?.transform.Find("Result")?.GetComponent<TMPro.TMP_Text>();
 
         if (playerModel != null)
         {
@@ -24,6 +33,19 @@ public class CollisionDetect : MonoBehaviour
         }
 
         mainCamera = Player.GetComponentInChildren<Camera>();
+
+        if (gameOverPanel != null)
+        {
+            restartButton = gameOverPanel.transform.Find("RestartButton")?.GetComponent<Button>();
+            mainMenuButton = gameOverPanel.transform.Find("MainMenuButton")?.GetComponent<Button>();
+            gameOverPanel.SetActive(false); 
+
+            if (restartButton != null)
+                restartButton.onClick.AddListener(RestartGame);
+
+            if (mainMenuButton != null)
+                mainMenuButton.onClick.AddListener(GoToMainMenu);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -55,8 +77,32 @@ public class CollisionDetect : MonoBehaviour
                 Debug.Log("Animation Played!");
             }
             mainCamera.GetComponent<Animator>().Play("CollisionCam");
-            yield return new WaitForSeconds(3);
-            fadeOut.SetActive(true);
+            yield return new WaitForSeconds(1);
+            if(fadeOut != null)
+            {
+                fadeOut.SetActive(true);
+            }
+            yield return new WaitForSeconds(2);
+            if (gameOverPanel != null)
+            {
+                if (result != null)
+                {
+                    result.text = "You Scored: " + MasterLevelInfo.boneCount;
+                }
+                gameOverPanel.SetActive(true);
+            }
         }
+    }
+
+    // Function to restart the game
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    // Function to go back to the main menu
+    public void GoToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu"); // Change "MainMenu" to your actual main menu scene name
     }
 }

@@ -712,6 +712,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
