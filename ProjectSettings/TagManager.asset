@@ -10,6 +10,11 @@ TagManager:
   - PlayerModel
   - FadeOut
   - Canvas
+  - PlayerCorgi
+  - PlayerChihuahua
+  - PlayerCur
+  - PlayerGermanShepherd
+  - PlayerPug
   layers:
   - Default
   - TransparentFX

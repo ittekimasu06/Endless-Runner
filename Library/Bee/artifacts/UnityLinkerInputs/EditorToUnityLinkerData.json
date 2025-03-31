@@ -18,6 +18,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "CharacterManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CharacterSelection",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "CollectableRotate",
             "moduleName": "",
             "usedInScenes": []
@@ -49,6 +63,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -59,6 +75,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -76,6 +94,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -107,6 +127,8 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -124,6 +146,8 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -232,6 +256,7 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -262,6 +287,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -307,6 +333,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -316,6 +343,7 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -343,6 +371,8 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -362,6 +392,8 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -390,6 +422,8 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -409,6 +443,8 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -419,6 +455,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -429,6 +466,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -457,6 +495,8 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -467,6 +507,8 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -494,6 +536,8 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -546,6 +590,8 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -556,6 +602,8 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -566,6 +614,8 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -576,6 +626,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -585,6 +636,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -594,6 +646,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -603,6 +656,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -613,6 +667,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -622,6 +677,8 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -639,6 +696,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -649,6 +707,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -665,6 +724,8 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -684,6 +745,7 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -693,6 +755,8 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -703,6 +767,7 @@
             "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity"
             ]
         },
@@ -712,6 +777,7 @@
             "fullManagedTypeName": "UnityEngine.Sprite",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -722,6 +788,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -732,6 +799,8 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -742,6 +811,8 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
@@ -752,6 +823,8 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
+                "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]

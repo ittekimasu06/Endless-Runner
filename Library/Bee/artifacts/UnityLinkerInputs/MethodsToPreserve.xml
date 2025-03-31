@@ -1,5 +1,10 @@
 <linker>
 	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="CharacterSelection">
+			<method name="ConfirmButton"/>
+			<method name="ToggleLeft"/>
+			<method name="ToggleRight"/>
+		</type>
 		<type fullname="MainMenu">
 			<method name="PlayGame"/>
 			<method name="QuitGame"/>

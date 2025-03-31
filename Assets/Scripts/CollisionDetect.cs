@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -17,20 +16,26 @@ public class CollisionDetect : MonoBehaviour
     private TMPro.TMP_Text result;
     [SerializeField] GameObject collisionFX;
 
-    private void Start()
+    void Start()
     {
-        // Find the player object by tag
-        GameObject playerModel = GameObject.FindGameObjectWithTag("PlayerModel");
+        int selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
+
+        string[] characterTags = { "PlayerCorgi", "PlayerChihuahua", "PlayerCur", "PlayerGermanShepherd", "PlayerPug" };
+
+        if (selectedIndex >= 0 && selectedIndex < characterTags.Length)
+        {
+            GameObject playerModel = GameObject.FindGameObjectWithTag(characterTags[selectedIndex]);
+            if (playerModel != null)
+            {
+                playerAnimator = playerModel.GetComponent<Animator>();
+            }
+        }
+
         Player = GameObject.FindGameObjectWithTag("Player");
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         fadeOut = Canvas.transform.Find("FadeOut")?.gameObject;
         gameOverPanel = Canvas.transform.Find("GameOverPanel")?.gameObject;
         result = gameOverPanel?.transform.Find("Result")?.GetComponent<TMPro.TMP_Text>();
-
-        if (playerModel != null)
-        {
-            playerAnimator = playerModel.GetComponent<Animator>();
-        }
 
         mainCamera = Player.GetComponentInChildren<Camera>();
 
@@ -38,7 +43,7 @@ public class CollisionDetect : MonoBehaviour
         {
             restartButton = gameOverPanel.transform.Find("RestartButton")?.GetComponent<Button>();
             mainMenuButton = gameOverPanel.transform.Find("MainMenuButton")?.GetComponent<Button>();
-            gameOverPanel.SetActive(false); 
+            gameOverPanel.SetActive(false);
 
             if (restartButton != null)
                 restartButton.onClick.AddListener(RestartGame);
@@ -70,15 +75,22 @@ public class CollisionDetect : MonoBehaviour
 
             Player.GetComponent<CubeMovement>().enabled = false;
 
-            // Play the animation if animator is found
+            // Play the correct "Angry" animation for the selected character
             if (playerAnimator != null)
             {
-                playerAnimator.Play("corgi_AngryStart");
-                Debug.Log("Animation Played!");
+                string[] angryAnimations = { "corgi_AngryStart", "chihuahua_AngryStart", "cur_AngryStart", "germanshepherd_AngryStart", "pug_AngryStart" };
+                int selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
+
+                if (selectedIndex >= 0 && selectedIndex < angryAnimations.Length)
+                {
+                    playerAnimator.Play(angryAnimations[selectedIndex]);
+                    Debug.Log("Played animation: " + angryAnimations[selectedIndex]);
+                }
             }
+
             mainCamera.GetComponent<Animator>().Play("CollisionCam");
             yield return new WaitForSeconds(1);
-            if(fadeOut != null)
+            if (fadeOut != null)
             {
                 fadeOut.SetActive(true);
             }
@@ -94,15 +106,13 @@ public class CollisionDetect : MonoBehaviour
         }
     }
 
-    // Function to restart the game
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // Function to go back to the main menu
     public void GoToMainMenu()
     {
-        SceneManager.LoadScene("MainMenu"); // Change "MainMenu" to your actual main menu scene name
+        SceneManager.LoadScene("MainMenu");
     }
 }

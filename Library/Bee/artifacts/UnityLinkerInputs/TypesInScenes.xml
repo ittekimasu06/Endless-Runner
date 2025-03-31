@@ -1,6 +1,8 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="BoneCollect" preserve="nothing"/>
+		<type fullname="CharacterManager" preserve="nothing"/>
+		<type fullname="CharacterSelection" preserve="nothing"/>
 		<type fullname="CollectableRotate" preserve="nothing"/>
 		<type fullname="CollisionDetect" preserve="nothing"/>
 		<type fullname="CubeMovement" preserve="nothing"/>
