@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class SegmentMove : MonoBehaviour
 {
+    public static float speed = 8f;  // Initial speed
+    public float acceleration = 0.02f; // How much speed increases per second
 
-    // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 0, -10) * Time.deltaTime;
+        speed += acceleration * Time.deltaTime;  // Increase speed gradually
+        transform.position += new Vector3(0, 0, -speed) * Time.deltaTime;
     }
 
     private void OnTriggerEnter(Collider other)
