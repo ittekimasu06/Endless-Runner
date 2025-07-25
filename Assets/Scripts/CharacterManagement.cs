@@ -1,6 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CharacterManager : MonoBehaviour
+public class CharacterManagement : MonoBehaviour
 {
     private Animator playerAnimator;
     private GameObject selectedCharacter;

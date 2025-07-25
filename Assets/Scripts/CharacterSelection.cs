@@ -110,7 +110,8 @@ public class CharacterSelection : MonoBehaviour
         }
 
         PlayerPrefs.SetInt("CharacterSelected", index);
-        SceneManager.LoadSceneAsync(3);
+        DontDestroyOnLoad(characterList[index]); 
+        SceneManager.LoadSceneAsync(2);
     }
 
     public void BackButton()

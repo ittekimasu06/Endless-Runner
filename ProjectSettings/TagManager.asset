@@ -17,6 +17,7 @@ TagManager:
   - PlayerPug
   - Price
   - ConfirmButton
+  - MapNameText
   layers:
   - Default
   - TransparentFX

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\Endless Runner\\Endless-Runner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|d:\\endless runner\\endless-runner\\assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|d:\\endless runner\\endless-runner\\assets\\scripts\\characterselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|D:\\Endless Runner\\Endless-Runner\\assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sectiontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0A416CE-6D74-343F-B7EE-28C1EA9AD608}|Assembly-CSharp.csproj|D:\\Endless Runner\\Endless-Runner\\assets\\scripts\\charactermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SectionTrigger.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Endless-Runner\\Assets\\Scripts\\SectionTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SectionTrigger.cs",
@@ -50,18 +50,17 @@
               "RelativeToolTip": "Assets\\Scripts\\SectionTrigger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T13:43:09.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T13:43:09.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CharacterSelection.cs",
               "DocumentMoniker": "D:\\Endless Runner\\Endless-Runner\\Assets\\Scripts\\CharacterSelection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSelection.cs",
               "ToolTip": "D:\\Endless Runner\\Endless-Runner\\Assets\\Scripts\\CharacterSelection.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterSelection.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAuwCUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T14:46:57.095Z",
               "EditorCaption": ""
