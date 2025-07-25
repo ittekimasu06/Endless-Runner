@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class CollisionDetect : MonoBehaviour
 {
     private Animator playerAnimator;
-    private Camera mainCamera;
     private GameObject Player;
     private GameObject Canvas;
     private GameObject fadeOut;
     private GameObject gameOverPanel;
     private Button restartButton;
     private Button mainMenuButton;
+    private GameObject MainCamera;
     private TMPro.TMP_Text result;
     [SerializeField] GameObject collisionFX;
 
@@ -33,11 +33,10 @@ public class CollisionDetect : MonoBehaviour
 
         Player = GameObject.FindGameObjectWithTag("Player");
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
+        MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         fadeOut = Canvas.transform.Find("FadeOut")?.gameObject;
         gameOverPanel = Canvas.transform.Find("GameOverPanel")?.gameObject;
         result = gameOverPanel?.transform.Find("Result")?.GetComponent<TMPro.TMP_Text>();
-
-        mainCamera = Player.GetComponentInChildren<Camera>();
 
         if (gameOverPanel != null)
         {
@@ -88,7 +87,7 @@ public class CollisionDetect : MonoBehaviour
                 }
             }
 
-            mainCamera.GetComponent<Animator>().Play("CollisionCam");
+            MainCamera.GetComponent<Animator>().Play("CollisionCam");
             yield return new WaitForSeconds(1);
             if (fadeOut != null)
             {
@@ -102,6 +101,13 @@ public class CollisionDetect : MonoBehaviour
                     result.text = "You Scored: " + MasterLevelInfo.boneCount;
                 }
                 gameOverPanel.SetActive(true);
+
+                int totalBones = PlayerPrefs.GetInt("TotalBones", 0);
+                totalBones += MasterLevelInfo.boneCount;
+                PlayerPrefs.SetInt("TotalBones", totalBones);
+                PlayerPrefs.Save();
+
+                MasterLevelInfo.boneCount = 0;
             }
         }
     }
