@@ -1,13 +1,13 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SegmentMove : MonoBehaviour
 {
-    public static float speed = 8f;  // Initial speed
-    public float acceleration = 0.02f; // How much speed increases per second
+    public static float speed = 8f;  // tốc độ là static → giữ chung
+    public static float acceleration = 0.02f; // cũng nên để static để dùng chung
 
     void Update()
     {
-        speed += acceleration * Time.deltaTime;  // Increase speed gradually
+        speed += acceleration * Time.deltaTime;
         transform.position += new Vector3(0, 0, -speed) * Time.deltaTime;
     }
 

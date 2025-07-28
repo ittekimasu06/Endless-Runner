@@ -22,6 +22,8 @@ public class CubeMovement : MonoBehaviour
     void Start()
     {
         originalPosition = transform.position;
+        //reset tốc độ khi bắt đầu màn chơi mới
+        GameManager.ResetSpeed();
     }
 
     void Update()

@@ -18,6 +18,7 @@ TagManager:
   - Price
   - ConfirmButton
   - MapNameText
+  - HighScoreText
   layers:
   - Default
   - TransparentFX

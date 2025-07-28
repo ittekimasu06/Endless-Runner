@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,12 +14,14 @@ public class CollisionDetect : MonoBehaviour
     private Button mainMenuButton;
     private GameObject MainCamera;
     private TMPro.TMP_Text result;
+    private TMPro.TMP_Text highScoreText; // Thêm để hiển thị high score
     [SerializeField] GameObject collisionFX;
+
+    private bool hasCollided = false;
 
     void Start()
     {
         int selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
-
         string[] characterTags = { "PlayerCorgi", "PlayerChihuahua", "PlayerCur", "PlayerGermanShepherd", "PlayerPug" };
 
         if (selectedIndex >= 0 && selectedIndex < characterTags.Length)
@@ -34,9 +36,11 @@ public class CollisionDetect : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+
         fadeOut = Canvas.transform.Find("FadeOut")?.gameObject;
         gameOverPanel = Canvas.transform.Find("GameOverPanel")?.gameObject;
         result = gameOverPanel?.transform.Find("Result")?.GetComponent<TMPro.TMP_Text>();
+        highScoreText = gameOverPanel?.transform.Find("HighScoreText")?.GetComponent<TMPro.TMP_Text>();
 
         if (gameOverPanel != null)
         {
@@ -46,7 +50,6 @@ public class CollisionDetect : MonoBehaviour
 
             if (restartButton != null)
                 restartButton.onClick.AddListener(RestartGame);
-
             if (mainMenuButton != null)
                 mainMenuButton.onClick.AddListener(GoToMainMenu);
         }
@@ -54,61 +57,81 @@ public class CollisionDetect : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        StartCoroutine(CollisionEnd(other));
+        if (!hasCollided && other.CompareTag("Player"))
+        {
+            hasCollided = true;
+            StartCoroutine(CollisionEnd());
+        }
     }
 
-    IEnumerator CollisionEnd(Collider other)
+    IEnumerator CollisionEnd()
     {
-        if (other.gameObject.CompareTag("Player"))
+        foreach (SegmentMove segment in FindObjectsOfType<SegmentMove>())
         {
-            // Stop all active map segments
-            SegmentMove[] mapSegments = FindObjectsOfType<SegmentMove>();
-            foreach (SegmentMove segment in mapSegments)
-            {
-                segment.enabled = false;
-            }
+            segment.enabled = false;
+        }
 
-            GameObject sfx = Instantiate(collisionFX, transform.position, Quaternion.identity);
-            AudioSource audio = sfx.GetComponent<AudioSource>();
-            audio.Play();
+        Instantiate(collisionFX, transform.position, Quaternion.identity)
+            .GetComponent<AudioSource>()?.Play();
 
+        if (Player != null)
+        {
             Player.GetComponent<CubeMovement>().enabled = false;
+        }
 
-            // Play the correct "Angry" animation for the selected character
-            if (playerAnimator != null)
-            {
-                string[] angryAnimations = { "corgi_AngryStart", "chihuahua_AngryStart", "cur_AngryStart", "germanshepherd_AngryStart", "pug_AngryStart" };
-                int selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
+        int selectedIndex = PlayerPrefs.GetInt("CharacterSelected");
+        string[] angryAnimations = {
+            "corgi_AngryStart",
+            "chihuahua_AngryStart",
+            "cur_AngryStart",
+            "germanshepherd_AngryStart",
+            "pug_AngryStart"
+        };
 
-                if (selectedIndex >= 0 && selectedIndex < angryAnimations.Length)
-                {
-                    playerAnimator.Play(angryAnimations[selectedIndex]);
-                    Debug.Log("Played animation: " + angryAnimations[selectedIndex]);
-                }
-            }
+        if (playerAnimator != null && selectedIndex >= 0 && selectedIndex < angryAnimations.Length)
+        {
+            playerAnimator.Play(angryAnimations[selectedIndex]);
+        }
 
+        if (MainCamera != null)
+        {
             MainCamera.GetComponent<Animator>().Play("CollisionCam");
-            yield return new WaitForSeconds(1);
-            if (fadeOut != null)
-            {
-                fadeOut.SetActive(true);
-            }
-            yield return new WaitForSeconds(2);
-            if (gameOverPanel != null)
-            {
-                if (result != null)
-                {
-                    result.text = "You Scored: " + MasterLevelInfo.boneCount;
-                }
-                gameOverPanel.SetActive(true);
+        }
 
-                int totalBones = PlayerPrefs.GetInt("TotalBones", 0);
-                totalBones += MasterLevelInfo.boneCount;
-                PlayerPrefs.SetInt("TotalBones", totalBones);
-                PlayerPrefs.Save();
+        yield return new WaitForSeconds(1);
+        if (fadeOut != null) fadeOut.SetActive(true);
+        yield return new WaitForSeconds(2);
 
-                MasterLevelInfo.boneCount = 0;
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(true);
+
+            int totalBones = PlayerPrefs.GetInt("TotalBones", 0);
+            totalBones += MasterLevelInfo.boneCount;
+            PlayerPrefs.SetInt("TotalBones", totalBones);
+
+            // Lưu high score theo map
+            int mapIndex = PlayerPrefs.GetInt("SelectedMapIndex", 0);
+            string key = "HighScore_" + mapIndex;
+            int previousHighScore = PlayerPrefs.GetInt(key, 0);
+            if (MasterLevelInfo.boneCount > previousHighScore)
+            {
+                PlayerPrefs.SetInt(key, MasterLevelInfo.boneCount);
             }
+
+            PlayerPrefs.Save();
+
+            if (result != null)
+            {
+                result.text = "You Scored: " + MasterLevelInfo.boneCount;
+            }
+
+            if (highScoreText != null)
+            {
+                highScoreText.text = "High Score: " + PlayerPrefs.GetInt(key, 0);
+            }
+
+            MasterLevelInfo.boneCount = 0;
         }
     }
 

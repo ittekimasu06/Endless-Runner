@@ -1,12 +1,13 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="BoneCollect" preserve="nothing"/>
-		<type fullname="CharacterManager" preserve="nothing"/>
+		<type fullname="CharacterManagement" preserve="nothing"/>
 		<type fullname="CharacterSelection" preserve="nothing"/>
 		<type fullname="CollectableRotate" preserve="nothing"/>
 		<type fullname="CollisionDetect" preserve="nothing"/>
 		<type fullname="CubeMovement" preserve="nothing"/>
 		<type fullname="MainMenu" preserve="nothing"/>
+		<type fullname="MapSelection" preserve="nothing"/>
 		<type fullname="MasterLevelInfo" preserve="nothing"/>
 		<type fullname="ObstacleCollision" preserve="nothing"/>
 		<type fullname="Options" preserve="nothing"/>
@@ -63,8 +64,10 @@
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.Light" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.LODGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.Material" preserve="nothing"/>
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
+		<type fullname="UnityEngine.MeshCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshFilter" preserve="nothing"/>
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.MonoBehaviour" preserve="nothing"/>
@@ -79,7 +82,12 @@
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
 		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.SphereCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
+		<type fullname="UnityEngine.Terrain" preserve="nothing"/>
+		<type fullname="UnityEngine.TerrainCollider" preserve="nothing"/>
+		<type fullname="UnityEngine.TerrainData" preserve="nothing"/>
+		<type fullname="UnityEngine.TerrainLayer" preserve="nothing"/>
 		<type fullname="UnityEngine.TextAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>

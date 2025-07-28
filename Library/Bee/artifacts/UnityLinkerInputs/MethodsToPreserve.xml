@@ -10,6 +10,12 @@
 			<method name="PlayGame"/>
 			<method name="QuitGame"/>
 		</type>
+		<type fullname="MapSelection">
+			<method name="BackButton"/>
+			<method name="ConfirmButton"/>
+			<method name="ToggleLeft"/>
+			<method name="ToggleRight"/>
+		</type>
 		<type fullname="Options">
 			<method name="WindowSizeDropdown"/>
 		</type>

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -8,14 +8,17 @@ public class MapSelection : MonoBehaviour
     private GameObject[] mapList;
     private GameObject confirmButton;
     private GameObject mapNameText;
+    private GameObject highScoreText;
 
     // index trong scene list
     private int[] mapSceneIndexes = { 3, 4, 5 };
+    private string[] mapNames = { "City", "Gas Town", "Forest" };
 
     private void Start()
     {
         confirmButton = GameObject.FindGameObjectWithTag("ConfirmButton");
         mapNameText = GameObject.FindGameObjectWithTag("MapNameText");
+        highScoreText = GameObject.FindGameObjectWithTag("HighScoreText");
 
         index = PlayerPrefs.GetInt("MapSelected", 0);
         LoadMaps();
@@ -26,12 +29,12 @@ public class MapSelection : MonoBehaviour
     {
         mapList = new GameObject[transform.childCount];
 
-        for(int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
             mapList[i] = transform.GetChild(i).gameObject;
         }
 
-        foreach(GameObject map in mapList)
+        foreach (GameObject map in mapList)
         {
             map.SetActive(false);
         }
@@ -62,7 +65,15 @@ public class MapSelection : MonoBehaviour
     {
         if (mapNameText != null)
         {
-            mapNameText.GetComponent<TMPro.TMP_Text>().text = "Map " + (index + 1);
+            string mapName = (index >= 0 && index < mapNames.Length) ? mapNames[index] : "Unknown";
+            mapNameText.GetComponent<TMPro.TMP_Text>().text = mapName;
+        }
+
+        if (highScoreText != null)
+        {
+            string key = "HighScore_" + index;
+            int highScore = PlayerPrefs.GetInt(key, 0);
+            highScoreText.GetComponent<TMPro.TMP_Text>().text = "High Score: " + highScore.ToString();
         }
     }
 
@@ -74,6 +85,6 @@ public class MapSelection : MonoBehaviour
 
     public void BackButton()
     {
-        SceneManager.LoadSceneAsync(0); 
+        SceneManager.LoadSceneAsync(0);
     }
 }

@@ -166,7 +166,16 @@
         156,
         157,
         158,
-        159
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
       ],
       "DebugActionIndex": 0
     },
@@ -297,6 +306,42 @@
       "DebugActionIndex": 7
     },
     {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/level4",
+      "DisplayName": "Copying level4",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/level4"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/level4"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/level5",
+      "DisplayName": "Copying level5",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/level5"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/level5"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 9
+    },
+    {
       "Annotation": "CopyFiles Build/Endless Runner_Data/resources.assets",
       "DisplayName": "Copying resources.assets",
       "ActionType": "CopyFiles",
@@ -312,7 +357,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/resources.assets.resS",
@@ -330,7 +375,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 11
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Resources/unity_builtin_extra",
@@ -348,7 +393,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/RuntimeInitializeOnLoads.json",
@@ -366,7 +411,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/ScriptingAssemblies.json",
@@ -384,7 +429,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets0.assets",
@@ -402,7 +447,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets0.assets.resS",
@@ -420,7 +465,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets1.assets",
@@ -438,7 +483,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets1.assets.resS",
@@ -456,7 +501,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets2.assets",
@@ -474,7 +519,25 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets2.assets.resS",
+      "DisplayName": "Copying sharedassets2.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets2.assets.resS"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets2.assets.resS"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets3.assets",
@@ -492,7 +555,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets3.assets.resS",
@@ -510,7 +573,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets3.resource",
@@ -528,14 +591,122 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets4.assets",
+      "DisplayName": "Copying sharedassets4.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets4.assets"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets4.assets"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets4.assets.resS",
+      "DisplayName": "Copying sharedassets4.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets4.assets.resS"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets4.assets.resS"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets4.resource",
+      "DisplayName": "Copying sharedassets4.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets4.resource"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets4.resource"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets5.assets",
+      "DisplayName": "Copying sharedassets5.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets5.assets"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets5.assets"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets5.assets.resS",
+      "DisplayName": "Copying sharedassets5.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets5.assets.resS"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets5.assets.resS"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles Build/Endless Runner_Data/sharedassets5.resource",
+      "DisplayName": "Copying sharedassets5.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets5.resource"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "Build/Endless Runner_Data/sharedassets5.resource"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 52498,
+      "PayloadLength": 53020,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "InputFlags": [],
@@ -545,7 +716,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -561,6 +732,8 @@
         "Library/PlayerDataCache/Win642/Data/level1",
         "Library/PlayerDataCache/Win642/Data/level2",
         "Library/PlayerDataCache/Win642/Data/level3",
+        "Library/PlayerDataCache/Win642/Data/level4",
+        "Library/PlayerDataCache/Win642/Data/level5",
         "Library/PlayerDataCache/Win642/Data/resources.assets",
         "Library/PlayerDataCache/Win642/Data/resources.assets.resS",
         "Library/PlayerDataCache/Win642/Data/Resources/unity_builtin_extra",
@@ -571,9 +744,16 @@
         "Library/PlayerDataCache/Win642/Data/sharedassets1.assets",
         "Library/PlayerDataCache/Win642/Data/sharedassets1.assets.resS",
         "Library/PlayerDataCache/Win642/Data/sharedassets2.assets",
+        "Library/PlayerDataCache/Win642/Data/sharedassets2.assets.resS",
         "Library/PlayerDataCache/Win642/Data/sharedassets3.assets",
         "Library/PlayerDataCache/Win642/Data/sharedassets3.assets.resS",
         "Library/PlayerDataCache/Win642/Data/sharedassets3.resource",
+        "Library/PlayerDataCache/Win642/Data/sharedassets4.assets",
+        "Library/PlayerDataCache/Win642/Data/sharedassets4.assets.resS",
+        "Library/PlayerDataCache/Win642/Data/sharedassets4.resource",
+        "Library/PlayerDataCache/Win642/Data/sharedassets5.assets",
+        "Library/PlayerDataCache/Win642/Data/sharedassets5.assets.resS",
+        "Library/PlayerDataCache/Win642/Data/sharedassets5.resource",
         "D:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "D:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AMDModule.dll",
         "D:/Program Files/Unity/Hub/Editor/6000.0.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
@@ -1373,6 +1553,15 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         2,
         2,
         2,
@@ -1416,11 +1605,11 @@
         0
       ],
       "ToBuildDependencies": [
-        21
+        30
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/boot.config",
@@ -1439,15 +1628,15 @@
         2
       ],
       "ToBuildDependencies": [
-        22
+        31
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/12897934533916730947.rsp",
       "DisplayName": "Writing 12897934533916730947.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 52671,
+      "PayloadOffset": 53193,
       "PayloadLength": 74858,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"D:/Program",
       "Inputs": [],
@@ -1458,7 +1647,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "UnityLinker D:/Endless Runner/Endless-Runner/Library/Bee/artifacts/unitylinker_dwek.traceevents",
@@ -2756,7 +2945,7 @@
         0
       ],
       "ToBuildDependencies": [
-        24
+        33
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -2782,7 +2971,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Assembly-CSharp.dll",
@@ -2801,9 +2990,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Mono.Security.dll",
@@ -2822,9 +3011,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/mscorlib.dll",
@@ -2843,9 +3032,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/netstandard.dll",
@@ -2864,9 +3053,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.ComponentModel.Composition.dll",
@@ -2885,9 +3074,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Configuration.dll",
@@ -2906,9 +3095,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Core.dll",
@@ -2927,9 +3116,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -2948,9 +3137,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Data.dll",
@@ -2969,9 +3158,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.dll",
@@ -2990,9 +3179,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Drawing.dll",
@@ -3011,9 +3200,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.EnterpriseServices.dll",
@@ -3032,9 +3221,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.IO.Compression.dll",
@@ -3053,9 +3242,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -3074,9 +3263,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Net.Http.dll",
@@ -3095,9 +3284,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Numerics.dll",
@@ -3116,9 +3305,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Runtime.Serialization.dll",
@@ -3137,9 +3326,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Security.dll",
@@ -3158,9 +3347,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.ServiceModel.Internals.dll",
@@ -3179,9 +3368,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Transactions.dll",
@@ -3200,9 +3389,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Xml.dll",
@@ -3221,9 +3410,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/System.Xml.Linq.dll",
@@ -3242,9 +3431,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.InputSystem.dll",
@@ -3263,9 +3452,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.InputSystem.ForUI.dll",
@@ -3284,9 +3473,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.Multiplayer.Center.Common.dll",
@@ -3305,9 +3494,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.TextMeshPro.dll",
@@ -3326,9 +3515,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.Timeline.dll",
@@ -3347,9 +3536,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -3368,9 +3557,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -3389,9 +3578,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -3410,9 +3599,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/Unity.VisualScripting.State.dll",
@@ -3431,9 +3620,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -3452,9 +3641,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AIModule.dll",
@@ -3473,9 +3662,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AMDModule.dll",
@@ -3494,9 +3683,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -3515,9 +3704,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -3536,9 +3725,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ARModule.dll",
@@ -3557,9 +3746,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -3578,9 +3767,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.AudioModule.dll",
@@ -3599,9 +3788,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ClothModule.dll",
@@ -3620,9 +3809,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -3641,9 +3830,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -3662,9 +3851,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -3683,9 +3872,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.CoreModule.dll",
@@ -3704,9 +3893,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -3725,9 +3914,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -3746,9 +3935,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.dll",
@@ -3767,9 +3956,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -3788,9 +3977,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -3809,9 +3998,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.GIModule.dll",
@@ -3830,9 +4019,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
@@ -3851,9 +4040,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.GridModule.dll",
@@ -3872,9 +4061,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
@@ -3893,9 +4082,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -3914,9 +4103,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -3935,9 +4124,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -3956,9 +4145,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.InputForUIModule.dll",
@@ -3977,9 +4166,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -3998,9 +4187,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.InputModule.dll",
@@ -4019,9 +4208,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -4040,9 +4229,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -4061,9 +4250,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.MarshallingModule.dll",
@@ -4082,9 +4271,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.MultiplayerModule.dll",
@@ -4103,9 +4292,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -4124,9 +4313,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -4145,9 +4334,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -4166,9 +4355,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -4187,9 +4376,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -4208,9 +4397,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -4229,9 +4418,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -4250,9 +4439,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -4271,9 +4460,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
@@ -4292,9 +4481,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -4313,9 +4502,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -4334,9 +4523,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -4355,9 +4544,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -4376,9 +4565,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -4397,9 +4586,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -4418,9 +4607,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -4439,9 +4628,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -4460,9 +4649,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -4481,9 +4670,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -4502,9 +4691,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -4523,9 +4712,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -4544,9 +4733,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.TLSModule.dll",
@@ -4565,9 +4754,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UI.dll",
@@ -4586,9 +4775,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -4607,9 +4796,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UIModule.dll",
@@ -4628,9 +4817,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -4649,9 +4838,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -4670,9 +4859,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -4691,9 +4880,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -4712,9 +4901,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -4733,9 +4922,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -4754,9 +4943,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -4775,9 +4964,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -4796,9 +4985,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -4817,9 +5006,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -4838,9 +5027,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -4859,9 +5048,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -4880,9 +5069,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.VFXModule.dll",
@@ -4901,9 +5090,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.VideoModule.dll",
@@ -4922,9 +5111,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -4943,9 +5132,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.VRModule.dll",
@@ -4964,9 +5153,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.WindModule.dll",
@@ -4985,9 +5174,9 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Managed/UnityEngine.XRModule.dll",
@@ -5006,15 +5195,15 @@
         2
       ],
       "ToBuildDependencies": [
-        25
+        34
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 127618,
+      "PayloadOffset": 128140,
       "PayloadLength": 29,
       "PayloadDebugContentSnippet": "DefaultCompany\nEndless Runner",
       "Inputs": [],
@@ -5025,7 +5214,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/app.info",
@@ -5044,9 +5233,9 @@
         2
       ],
       "ToBuildDependencies": [
-        132
+        141
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner_Data/Resources/unity default resources",
@@ -5064,7 +5253,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles Build/Endless Runner.exe",
@@ -5082,7 +5271,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -5100,7 +5289,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -5118,7 +5307,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -5136,7 +5325,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -5154,7 +5343,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -5172,7 +5361,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -5190,7 +5379,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -5208,7 +5397,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -5226,7 +5415,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -5244,7 +5433,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -5262,7 +5451,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -5280,7 +5469,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -5298,7 +5487,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -5316,7 +5505,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -5334,7 +5523,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -5352,7 +5541,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -5370,7 +5559,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -5388,7 +5577,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -5406,7 +5595,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/config",
@@ -5424,7 +5613,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -5442,7 +5631,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles Build/UnityCrashHandler64.exe",
@@ -5460,7 +5649,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles Build/UnityPlayer.dll",
@@ -5478,7 +5667,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles Build/D3D12/D3D12Core.dll",
@@ -5496,7 +5685,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "Player",
@@ -5526,16 +5715,16 @@
         18,
         19,
         20,
+        21,
+        22,
         23,
+        24,
+        25,
         26,
         27,
         28,
         29,
-        30,
-        31,
         32,
-        33,
-        34,
         35,
         36,
         37,
@@ -5633,6 +5822,7 @@
         129,
         130,
         131,
+        132,
         133,
         134,
         135,
@@ -5641,7 +5831,6 @@
         138,
         139,
         140,
-        141,
         142,
         143,
         144,
@@ -5658,9 +5847,18 @@
         155,
         156,
         157,
-        158
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 168
     }
   ],
   "FileSignatures": [
@@ -5874,7 +6072,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 159
+          "Player": 168
         }
 ,  "DefaultNodes": [
     0

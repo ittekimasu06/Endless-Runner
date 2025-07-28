@@ -18,7 +18,7 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "CharacterManager",
+            "fullManagedTypeName": "CharacterManagement",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -66,6 +66,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -78,6 +80,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -97,6 +101,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -104,6 +110,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "MainMenu",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "MapSelection",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -130,6 +143,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -149,6 +164,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -271,7 +288,9 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -302,7 +321,10 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -348,7 +370,9 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -358,7 +382,9 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -367,7 +393,9 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -376,7 +404,9 @@
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -388,6 +418,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -397,7 +429,9 @@
             "fullManagedTypeName": "UnityEngine.AudioClip",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -409,6 +443,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -418,7 +454,9 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -439,6 +477,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -448,7 +488,9 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -460,6 +502,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -470,7 +514,10 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -481,7 +528,10 @@
             "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -491,7 +541,9 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -500,7 +552,9 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -512,6 +566,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -524,6 +580,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -541,7 +599,10 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -554,6 +615,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -608,6 +671,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -620,7 +685,18 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LODGroup",
+            "fullManagedTypeName": "UnityEngine.LODGroup",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Forest.unity"
             ]
         },
         {
@@ -632,6 +708,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -642,7 +720,19 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -652,7 +742,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -662,7 +754,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -672,7 +766,10 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -683,7 +780,9 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -695,6 +794,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -712,7 +813,10 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -723,7 +827,9 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -742,6 +848,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -751,7 +859,9 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -761,7 +871,9 @@
             "moduleName": "Animation",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -773,6 +885,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -783,7 +897,18 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
-                "Assets/Scenes/CityMap.unity"
+                "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SphereCollider",
+            "fullManagedTypeName": "UnityEngine.SphereCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -793,8 +918,51 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Terrain",
+            "fullManagedTypeName": "UnityEngine.Terrain",
+            "moduleName": "Terrain",
+            "usedInScenes": [
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TerrainCollider",
+            "fullManagedTypeName": "UnityEngine.TerrainCollider",
+            "moduleName": "TerrainPhysics",
+            "usedInScenes": [
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TerrainData",
+            "fullManagedTypeName": "UnityEngine.TerrainData",
+            "moduleName": "Terrain",
+            "usedInScenes": [
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "TerrainLayer",
+            "fullManagedTypeName": "UnityEngine.TerrainLayer",
+            "moduleName": "Terrain",
+            "usedInScenes": [
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity"
             ]
         },
         {
@@ -804,7 +972,10 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/ChooseCharacter.unity",
+                "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -817,6 +988,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -829,6 +1002,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
@@ -841,6 +1016,8 @@
                 "Assets/Scenes/ChooseCharacter.unity",
                 "Assets/Scenes/ChooseMap.unity",
                 "Assets/Scenes/CityMap.unity",
+                "Assets/Scenes/Forest.unity",
+                "Assets/Scenes/GasTown.unity",
                 "Assets/Scenes/MainMenu.unity"
             ]
         },
