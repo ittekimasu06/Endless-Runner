@@ -80,6 +80,7 @@ public class MapSelection : MonoBehaviour
     public void ConfirmButton()
     {
         PlayerPrefs.SetInt("MapSelected", index);
+        PlayerPrefs.SetInt("SelectedMapIndex", index);
         SceneManager.LoadSceneAsync(mapSceneIndexes[index]);
     }
 
